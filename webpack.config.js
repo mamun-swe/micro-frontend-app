@@ -45,7 +45,7 @@ module.exports = (_, argv) => ({
       name: "micro_frontend_app",
       filename: "remoteEntry.js",
       remotes: {
-        navbar:
+        microcomponents:
           "micro_frontend_components@https://micro-frontend-components.vercel.app/remoteEntry.js",
       },
       exposes: {},
